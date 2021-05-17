@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Dice Challenge </title>
+	<script type="text/javascript" src="index.js" type="utf8"></script>
+
+	<style type="text/css">
+		body{
+			background-color: green;
+			color: white;
+		}
+		#output,h1{
+			text-align: center;
+		}
+		#output{
+			font-size: 100px;
+		}
+		.game{
+			display: flex;
+		}
+		img,h3{
+			padding: 10px;
+			margin-left: 320px;
+		}
+		.btn{
+			margin-left: 650px;
+			background-color: white;
+			color: black;
+			width: 100px;
+			height: 50px;
+		}
+		.btn:hover{
+			background-color:blue;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>The Dice Game </h1>
+	<div id="output">Play With Me</div>
+
+	<div class="game">
+		<div>
+		<h3>Player 1</h3>
+		<img id="image1" src="six.jpg">
+	</div>
+	<div>
+		<h3>Player 2</h3>
+		<img id="image2" src="six.jpg">
+	</div>
+	</div>
+	<br>
+<button class="btn" id="btnu" onclick="refresh()">Click Me</button>
+
+</body>
+</html>

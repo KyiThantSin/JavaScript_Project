@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bongo Cat</title>
+	<script type="text/javascript" src="index.js"></script>
+	<style type="text/css">
+		body{
+			background-color: #F6F6F6;
+		}
+		h1{
+			text-align: center;
+		}
+		em{
+			font-size: 40px;
+		}
+		.cat{
+			width: 500px;
+			margin-top: 50px;
+			margin-left: 300px;
+		}
+		#c{
+			position: relative;
+		}
+		#d{	
+			display: flex;
+			position: absolute;
+			top:430px;
+			margin-left: 290px;
+		}
+		button{
+			background-color: #9F7986;
+			border: 2px solid grey;
+			width: 100px;
+			font-size: 30px;
+		}
+		button:hover{
+			background-color: #f2d14f;
+		}
+		#drum{
+			width: 300px;
+		}
+		.cat{
+
+		}
+		#trumpet{
+			width: 300px;
+			padding-left: 60px;
+		}
+		#err{
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<h1>Bongo Cat</h1>
+	<em>Bongo: Press <button id="btnA" onclick="leftDrum()">A</button> or <button id="btnD" onclick="rightDrum()">D</button></em>
+	<br>
+	<em>Trumpet: Press <button id="btnS" onclick="trumpet()">S</button></em>
+	<div id="c">
+	<img id="cat" class="cat" src="both1.jpg">
+	<img id="trumpet" src="blow1.jpg">
+</div>
+<div id="d">
+<img id="drum" class="drum" src="drum.png">
+</div>
+
+<footer>
+	<p>Inspired from Bongo Cat</p>
+	<b id="err"></b>
+</footer>
+
+
+
+</body>
+</html>
