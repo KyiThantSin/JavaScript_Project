@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Pattaya&display=swap');
+h1{
+	font-family: 'Noto Serif', serif;
+	text-align: center;
+	color: #7C8A92;
+}
+h3{
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+}
+h4{
+	margin-left: 80px;
+}
+#date{
+	margin-left: 20px;
+}
+#quote{
+	margin-left: 400px;
+	margin-top: 50px;
+	width: 550px;
+	height: 200px;
+	border: 2px solid black;
+	font-size: 30px;
+	padding: 20px;
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+	background-image: url("https://img.wallpapersafari.com/desktop/728/410/7/2/wFtdYz.png");
+}
+footer{
+	display:inline-flex;
+	margin-top: 50px;
+	
+}
+.box{
+	border: 2px solid grey;
+	justify-content: space-around;
+	width: 80px;
+	height: 50px;
+	margin-left: 50px;
+	border-radius: 50%;
+}
+#colr1{
+	background-color: #FDEB2E;
+}
+#colr2{
+	background-color: #959494;
+}
+#colr3{
+	background-color: #F99878;
+}
+#colr4{
+	background-color: #E6E5E4;
+}
