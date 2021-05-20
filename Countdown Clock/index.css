@@ -1,0 +1,40 @@
+body{
+	background: #00d2ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.box{
+	display: inline-flex;
+	border: 2px solid gray;
+	padding: 80px;
+	margin-left: 320px;
+	margin-top: 80px;
+}
+#hour,#day,#sec,#minute{
+	justify-content: space-between;
+	padding: 20px;
+	width: 150px;
+	height: 100px;
+
+}
+span{
+	font-size: 80px;
+	padding: 0px;
+}
+.innerBox{
+	margin-left: 30px;
+
+}
+b{
+	font-size: 80px;
+}
+p{
+	font-size: 20px;
+}
