@@ -5,4 +5,4 @@
 | 02 |[Drum Kit](https://github.com/KyiThantSin/JavaScript_Projects/tree/main/Drum%20Kit)|
 | 03 |[Random Quotes Generator](https://github.com/KyiThantSin/JavaScript_Projects/tree/main/Random%20quotes%20generator)|
 | 04 |[Countdown Clock](https://github.com/KyiThantSin/JavaScript_Projects/tree/main/Countdown%20Clock)|
-
+| 05 |[Rock Paper Scissor Game](https://github.com/KyiThantSin/JavaScript_Projects/tree/main/Rock%2CPaper%2CScissor)|
