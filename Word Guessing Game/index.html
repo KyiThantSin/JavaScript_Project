@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Word Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Word Guessing Game</h1>
+		<b>Guess the fruits!</b>
+		<button onclick="start()">Start</button>
+	</header>
+	<div id="left">
+		<div id="table">
+			<div class="Row">
+				<button id="btn" value="a" onclick="word(this)">A</button>
+				<button id="btn" value="b" onclick="word(this)" >B</button>
+				<button id="btn" value="c" onclick="word(this)">C</button>
+				<button id="btn" value="d" onclick="word(this)">D</button>
+				<button id="btn" value="e" onclick="word(this)">E</button>
+			</div>
+			<div class="Row">
+				<button id="f" value="f" onclick="word(this)">F</button>
+				<button id="g" value="g" onclick="word(this)">G</button>
+				<button id="h" value="h" onclick="word(this)">H</button>
+				<button id="i" value="i" onclick="word(this)">I </button>
+				<button id="j" value="j" onclick="word(this)">J</button>
+			</div>
+			<div class="Row">
+				<button id="k" value="k" onclick="word(this)">K</button>
+				<button id="l" value="l" onclick="word(this)">L</button>
+				<button id="m" value="m" onclick="word(this)">M</button>
+				<button id="n" value="n" onclick="word(this)">N</button>
+				<button id="o" value="o" onclick="word(this)">O</button>
+			</div>
+			<div class="Row">
+				<button id="p" value="p" onclick="word(this)">P</button>
+				<button id="q" value="q" onclick="word(this)">Q</button>
+				<button id="r" value="r" onclick="word(this)">R</button>
+				<button id="s" value="s" onclick="word(this)">S</button>
+				<button id="t" value="t" onclick="word(this)">T</button>
+			</div>
+			<div class="Row">
+				<button id="u" value="u" onclick="word(this)">U</button>
+				<button id="v" value="v" onclick="word(this)">V</button>
+				<button id="w" value="w" onclick="word(this)">W</button>
+				<button id="x" value="x" onclick="word(this)">X</button>
+			</div>
+			<div class="Row">
+				<button id="y" value="y" onclick="word(this)">Y</button>
+				<button id="z" value="z" onclick="word(this)">Z</button>
+			</div>
+			<button id="submit" onclick="check()">Submit</button>
+			<button id="del" onclick="del()">Delete</button>
+		</div>
+	</div>
+	<div id="right">
+		<h2><span id="firstWord"></span><span id="blank"></span><span id="lastWord"> </span></h2>
+		<br>
+		<h2>Your Input: <span id="ans"></span></h2>
+		<div id="resultshow">
+			<h4>Results</h4>
+			<ol id="uL">
+			</ol>
+		</div>
+	</div>
+	<footer>
+	<h3 id="endResult"></h3>	
+</footer>
+</body>
+</html>
