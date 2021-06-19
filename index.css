@@ -1,0 +1,55 @@
+body{
+	background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+header{
+	text-align: center;
+}
+#table{
+	margin-left: 25%;
+}
+#left{
+	margin-top: 90px;
+	display:flex;
+}
+#right{
+	margin-left: 50%;
+	margin-top: -400px;
+}
+.Row{
+	padding: 6px;
+}
+#resultshow{
+	border: 1px solid gray;
+	width: 500px;
+	padding: 10px;
+}
+#submit,#del{
+	width: 90px;
+	padding: 4px;
+	background-color: lightblue;
+	outline: none;
+	border: 5px solid lightskyblue;
+	box-shadow: 0px 10px 10px gray;
+}
+button{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+
+}
+button:hover{
+	background-color: lightcyan;
+	border: white;
+	font-weight: 300;
+}
+ol{
+	font-family: monospace;
+	font-size: 30px;
+}
+footer{
+	margin-top: 95px;
+	text-align: center;
+}
